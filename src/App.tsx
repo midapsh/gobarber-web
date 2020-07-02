@@ -4,6 +4,7 @@ import GlobalStyle from './styles/global';
 
 const App: React.FC = () => (
   <>
+    <h1>asjdjasdhajskdhasd</h1>
     <GlobalStyle />
   </>
 );
