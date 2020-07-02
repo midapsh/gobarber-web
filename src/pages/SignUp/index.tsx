@@ -11,6 +11,7 @@ import { Container, Content, Background } from './styles';
 const SignUp: React.FC = () => {
   return (
     <Container>
+      <Background />
       <Content>
         <img src={logoImg} alt="GoBarber" />
         <form>
@@ -32,7 +33,6 @@ const SignUp: React.FC = () => {
           Voltar para logon
         </a>
       </Content>
-      <Background />
     </Container>
   );
 };
