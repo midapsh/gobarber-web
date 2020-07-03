@@ -3,8 +3,8 @@ import { FiArrowLeft, FiMail, FiLock, FiUser } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
-import getValidationErrors from '../../utils/getValidationErrors';
 
+import getValidationErrors from '../../utils/getValidationErrors';
 import logoImg from '../../assets/logo.svg';
 
 import Button from '../../components/Button';
@@ -43,6 +43,7 @@ const SignUp: React.FC = () => {
       <Background />
       <Content>
         <img src={logoImg} alt="GoBarber" />
+
         <Form ref={formRef} onSubmit={handleSubmit}>
           <h1>Faça o seu cadastro</h1>
 
